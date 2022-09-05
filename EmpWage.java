@@ -93,10 +93,22 @@ public class EmpWage {
 				workingHrs111 = 0;
 				break;
 			
+				//UC6-Calculating Wages for a Month till a condition of total working hours or days is reached for a month	
+			  case 2 :
+				   workingHrs = 100;
+				   monthlyWage = workingHrs * workingDays;
+				   System.out.println("Monthly wage for 100 Hrs & 20 Days  --> $" + monthlyWage);
+					
+			
+						workingHrs = 0;
+						break;
+					
+					}
+					
+
 			}
 
 
 
 	}
 
-}
