@@ -21,6 +21,12 @@ public class EmpWage {
 				int dailyWage = workingHrs * 20 ;
 				System.out.println("Daily wage of employee is --> $" + dailyWage );
 
+				//UC3-Add Part time Employee & Wage
+				int workingHrs1 = 8;
+				int dailyWage1 = workingHrs1 * 20 ;
+				System.out.println("Part time wage of employee is --> $" + dailyWage1 );
+				
+
 	}
 
 }
