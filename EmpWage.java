@@ -55,6 +55,46 @@ public class EmpWage {
 				
 				}
 				
+			//UC5-Calculating Wages for a Month
+			Random empCheck11 = new Random();
+		    int n1 = empCheck11.nextInt(2);
+		    int workingHrs111;
+			int dailyWage11;
+			int empRatePerHr = 20;
+			int isFullTime;
+			int isPartTime;
+			int monthlyWage;
+			int workingDays = 20;
+
+
+			
+			
+	 switch ((int)(n1)) {
+			
+	  case 0 :
+			workingHrs111 = 8;
+			dailyWage11 = empRatePerHr * workingHrs111;
+			monthlyWage = dailyWage11 * workingDays;
+			System.out.println("Employee is working Part Time");
+			System.out.println("Monthly wage of Employee is --> $" + monthlyWage);
+		
+	        break;
+			
+	  case 1 :
+				workingHrs111 = 8;
+				dailyWage11 = empRatePerHr * workingHrs111;
+				monthlyWage = dailyWage11 * workingDays;
+				System.out.println("Employee is working Full Time");
+				System.out.println("Monthly wage of Employee is --> $" + monthlyWage);
+				break;
+				
+			
+			default :
+				workingHrs111 = 0;
+				break;
+			
+			}
+
 
 
 	}
